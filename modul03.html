@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>No 2</title>
+<style type="text/css">
+    body {
+        background:white;
+        text-align: center;
+      }
+
+.box1 {
+       width : 1150px;
+      }  
+    
+.kotak1 {
+            width : 300px;
+            height : 185px;
+            padding :15px;
+            background: #665555;
+          }
+
+.kotak2 {
+            width : auto;
+            height : 175px;
+            margin : 5px 5px 5px 5px;
+            background : #d2b48c;
+            border-radius : 20px 20px 20px 20px;
+            font-size: 20pt;
+          }
+    
+#persegi-delapan {
+ width: 189px;
+ height: 120px; 
+ padding:20px;
+ background-color:#5588aa;
+ position: relative; }
+ #persegi-delapan:before { 
+ content: ""; 
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ border-bottom:15px solid #5588aa;
+ border-left: 15px solid #ffffff;
+ border-right: 15px solid #ffffff;
+ width: 200px; height: 0; } 
+ 
+ #persegi-delapan:after { content: ""; 
+ position: absolute;
+ bottom: 0; left: 0; 
+ border-top: 15px solid #5588aa;
+ border-left: 15px solid #ffffff;
+ border-right: 15px solid #ffffff;
+ width: 200px; 
+ height: 0; } 
+ 
+    
+.container {
+  width: 400px;
+  height: 200px;
+  margin:0 auto;
+  background-image: repeating-linear-gradient(135deg, #db0808 5px, #db0808 30px, transparent 30px, transparent 50px, #00BFFF  50px,  #00BFFF 80px, transparent 80px, transparent 100px);
+  padding: 12px;
+}
+.container .inner {
+  background: white;
+  width: 100%;
+  height: 100%;
+  font-size: 18pt;
+  text-align :center;
+}
+    #klik{
+     width:200px;
+     height:55px;
+     border:1px solid Steelblue;
+     background:Steelblue;
+     transform: skew(10deg);
+     -webkit-transform: skew(20deg);
+     font-size: 18pt;
+     text-align :center;
+     font-weight: bold;
+     color: white;
+}
+    #chartTop{
+     width:0;
+     height:0;
+     border-right:60px solid Greenyellow;
+     border-top:60px solid grey;
+     border-left:60px solid Greenyellow;
+     border-bottom:60px solid Greenyellow;
+     border-radius: 60px;
+}
+#chartLeft{
+     width:0;
+     height:0;
+     border-right:60px solid Greenyellow;
+     border-top:60px solid Greenyellow;
+     border-left:60px solid grey;
+    
+     border-bottom:60px solid Greenyellow;
+     border-radius: 60px;
+}
+    
+</style>
+</head>
+<body>
+    <table border ="0">
+    <div class="box1">
+  <div class=" kotak1 kotak1">
+    <div class ="kotak2 kotak2"> <br>Kotak berbunder yang unyu dan menarik hati, membuat hati berdebar debar </div>
+  </div><br>
+</div>
+<div id="persegi-delapan"><br>Fokus dong, pahami dan pelajari matakuliah ini biar jadi pakar di webdeveloper, kan asik </div><br>
+    <div class="container">
+    <div class="inner"> <br>Efek cantik yang indah dan luar biasa dari desain klasik amplop masa lalu. Jelas ini bukan amplop kondangan. Tapi amplop surat menyurat yang amazing dan luar biasa </div>
+    <br>
+        
+    <tr>
+      <td> <div id="klik">KLIK SAYA</div>
+      <td> <div id="klik"> KLIK SAYA SAJA</div>
+      </tr>
+        
+    </table>
+        <br>
+        <table border ="0">
+    <tr>
+      <td> <div id="chartTop"></div>
+      <td> <div id="chartLeft"></div>
+      </tr>
+    </table>
+</body>
+</html>
